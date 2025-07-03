@@ -87,8 +87,8 @@
   <script>
     document.getElementById("downloadBtn").addEventListener("click", function () {
       const table = document.getElementById("productTable");
-      const workbook = XLSX.utils.table_to_book(table, {sheet: "budgetbliss"});
-      XLSX.writeFile(workbook, "product_table.xlsx");
+      const workbook = XLSX.utils.table_to_book(table, {sheet: "Budget"});
+      XLSX.writeFile(workbook, "budgetbliss.xlsx");
     });
   </script>
 
